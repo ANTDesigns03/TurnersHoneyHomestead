@@ -1,0 +1,794 @@
+@charset "UTF-8";
+
+/* reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/honeycomb_pattern.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.flower{
+    background-image: url(images/floral_pattern.png);
+    background-repeat: repeat;
+    background-size: 25% auto;
+    background-attachment: fixed;
+}
+
+img {
+	display: block;
+}
+
+
+/* reset - end */
+
+
+/* menu */
+.menu, .landing, .scroll, .home_pics, .mission, .copyright, .about, .aboutpics, .values, .bee_landing, .types, .cycle, .facts, .honey, .liquid, .spring, .summer, .winter {
+	width: 1200px;
+    position: relative;
+	
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+	width: 1200px;
+    position: sticky;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1001;
+    background-color: rgba(255,197,0,1.00);	
+}
+
+.logo_menu {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 43.1%;
+    top: 5%;
+}
+
+
+.menu li {
+    font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    list-style-type: none;
+    float: left;
+    position: relative;
+    color: rgba(255,247,196,1.00);
+    background-color: rgba(255,247,196,1.00);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    width: 20%;
+    background-image: url(images/menu.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 28% auto;
+}
+
+.menu li:hover, .menu li:active {
+    background-image: url(images/menu_yellow.png);	
+}
+
+.menu img {
+    width: 14%;
+    height: auto;
+    margin-left: 0px;
+    position: absolute;
+    left: 42.8%;
+    margin-top: 0.8%;
+    background-color: rgba(255,247,196,1.00);
+}
+
+.menu li a:link, .menu li a:visited {
+    text-decoration: none;
+    color: rgba(255,247,196,1.00);    
+}
+
+/* menu - end */
+
+
+/* landing */
+.landing {
+	height: 700px;
+}
+
+.youtube {
+    position: relative;
+    padding-bottom: 56%;
+    margin-top: 0px;
+}
+
+.youtube iframe {
+    position: absolute;
+    left: 0px;
+    top: 13.4%;
+    min-width: 100%;
+    min-height: 100%;
+}
+/* landing - end */
+
+/* scroll */
+.scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: rgba(0,74,82,1.00);
+    margin-top: 60px;
+}
+/* scroll - end */
+
+
+/* home pics */
+.home_pics {
+    background-color: rgba(255,247,196,1.00);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.beeflower {
+    grid-area: 1/1/3/2;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 36px;
+    padding-top: 20px;
+}
+
+.beebox {
+	grid-area: 1/3/3/3;
+    margin-top: auto;
+    margin-bottom: auto;
+	
+}
+
+.home_pics img {
+	width: 90%;
+	height: auto;
+}
+
+.middle_img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* home pics - end */
+
+
+
+/* mission */
+.mission {
+	 background-color: rgba(255,247,196,1.00);
+    display: grid;
+    grid-template-columns: 66% auto;
+    grid-gap: 0px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.mission h1{
+    font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+	font-size: 45px;
+    color: rgba(0,74,82,1.00);	
+	
+	margin-left: 30px;
+}
+.mission p {
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: rgba(0,74,82,1.00);
+    margin-left: 30px;
+    width: 86%;
+}
+
+.mission img {
+    width: 70%;
+    height: auto;
+	padding-right: 20px;
+ }
+
+.mission .hive_hex {
+    position: absolute;
+    left: 64.5%;
+    top: 28%;
+}
+
+.mission .beebox_hex {
+	position:absolute;
+	left: 79%;
+	bottom: 58%;
+	
+}
+
+.mission .keeper_hex {
+	position:absolute;
+	left: 79%;
+	bottom: 17%;
+}
+/* misssion - end */
+
+
+
+/* copyright */
+
+.copyright {
+    background-color: rgba(255,197,0,1.00);
+    height: 160px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-image: url(images/copyright.png);
+    background-size: 81% auto;
+}
+
+.grid {
+	width: 50%;
+	height:auto;
+	display: grid;
+    grid-template-columns: auto auto;
+    background-size: 81% auto; 
+	padding-right: -10px;
+}
+.copy_backgorund {
+    position: absolute;
+    width: 1200px;
+	height: auto;
+}
+
+.location {
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(0,74,82,1.00);
+    padding-left: 15px;
+	padding-right: 20px;
+    padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: -8px;
+    background-color: rgba(255,197,0,1.00);
+	width: 200px; 
+	height: 100px;	
+}
+
+
+.copy_backgorund img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+}
+
+.logo_small img {
+    position: absolute;
+    width: 6%;
+    height: auto;
+    top: 10%;
+    left: 90%;
+    background-color: rgba(255,197,0,1.00);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	z-index: 1000;
+}
+.copy a:link {
+    text-decoration: none;
+    color: rgba(0,74,82,1.00);	
+}
+
+.copy {
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(0,74,82,1.00);
+    background-color: rgba(255,197,0,1.00);
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    z-index: 1001;
+   
+}
+.contact {
+    background-color: rgba(255,197,0,1.00);
+    width: 240px;
+    height: 69px;
+    margin-top: 15px;
+	padding-bottom: -10px;    
+	padding-top: 10px;
+    margin-left: 15px;
+}
+.contact li {
+    list-style: none;
+    float: left;
+  	padding-left: 15px;
+	margin-right: -40px;
+    z-index: 1003;	
+	
+}
+.copyright li img {
+    width: 60%;
+    height: auto;
+}
+
+/* copyright - end */
+
+/* about us */
+.about{
+    background-color: rgba(255,197,0,1.00);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+	
+}
+.about p{
+	 font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: rgba(0,74,82,1.00);
+    margin-left: 30px;
+    width: 86%;
+}
+.about h1{
+	font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+	font-size: 45px;
+    color: rgba(0,74,82,1.00);	
+	
+	margin-left: 30px;
+}
+.about img{
+    width: 90%;
+	height: auto;
+    border: 5px solid rgba(129,44,0,1.00);
+}
+/* about us - end*/
+
+
+/* about gallery */
+.aboutpics {
+	margin-top: 75px;
+	margin-bottom: 75px;
+	display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.aboutpics img {
+    width: 100%;
+    height: auto;
+}
+/* about gallery - end */
+
+/* values */
+.values {
+    background-color: rgba(255,247,196,1.00);	
+	padding-top: 3px;
+	padding-bottom: 40px;
+}
+
+.values h1{
+	font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+	font-size: 45px;
+    color: rgba(0,74,82,1.00);	
+	
+	margin-left: 30px;
+}
+
+.key {
+	display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+	
+.key li {
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(255,247,196,1.00);
+    width: 92%;
+   	margin:auto;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(0,129,129,1.00);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.key img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* values - end */
+
+
+/* bee_landing */
+.bee_landing  img {
+	width:100%;
+	height: auto;
+}
+
+.bee_landing .dive_in {
+    position: absolute;
+    font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 90px;
+    color: rgba(0,74,82,1.00);
+    right: 3%;
+    top: 55%;
+}
+/* bee_landing - end */
+
+/* hive types */
+.types {
+    background-color: rgba(0,129,129,1.00);
+    border-radius: 60px;
+    margin-top: 17px;
+}
+
+.types h1{
+    font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    color: rgba(255,247,196,1.00);
+    text-align: center;
+	padding-top: 20px;
+}
+
+.types p {
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: rgba(255,247,196,1.00);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.types img {
+    width: 80%;
+    height: auto;
+    float: left;
+    background-color: rgba(255,255,255,1.00);
+    margin-left: 36px;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 28px;
+}
+
+.hives {
+	display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
+    padding-top: 10px;
+	margin: auto;
+}
+/* hive types - end */
+
+
+/* life cycle */
+.cycle {
+	margin-bottom: 78px;
+}
+
+.cycle h1 {
+    font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    color: rgba(255,247,196,1.00);
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgba(129,44,0,1.00);
+    width: 60%;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+.stages {
+	width: 100%;
+	display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding-top: 10px;
+	margin: auto;
+}
+
+.stages p {
+	font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    color: rgba(255,247,196,1.00);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.stages div {
+    background-color: rgba(219,133,0,1.00);
+    border-radius: 32px;
+	padding-top: 20px;
+}
+
+.stages img {
+    width: 70%;
+    height: auto;
+    background-color: rgba(0,74,82,1.00);
+    border-radius: 50px;
+	margin: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* life cycle - end */
+
+/* fun facts */
+.facts {
+    background-color: rgba(0,74,82,0.75);
+    padding-top: 3px;
+    padding-bottom: 40px;
+}
+
+.facts h1 {
+    font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 45px;
+    color: rgba(255,197,0,1.00);
+    margin-left: 30px;
+}
+
+.facts p {
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    color: rgba(0,74,82,1.00);
+    text-align: left;
+	padding-left: 11px;
+}
+
+.fun {
+	width: 100%;
+	display: grid;
+    grid-template-columns: auto 30% 30%;
+    grid-gap: 40px;
+    padding-top: 7px;
+	margin: auto;
+	
+}
+
+.fun div {
+    background-color: rgba(255,247,196,1.00);
+	margin-right: 30px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 15px;
+}
+
+.bee_pic {
+    grid-area: 1/1/3/2;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    padding-right: 36px;
+}
+
+.bee_pic img {
+    width: 107%;
+    height: auto;
+    padding-top: 20px;
+    margin-left: 4.25px;
+}
+
+/* fun facts - end */
+.honey {
+}
+.bee_landing .liquid {
+    position: absolute;
+    font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 140px;
+    color: rgba(0,74,82,1.00);
+    left: 46%;
+    top: 65%;
+}
+
+.yellow {
+    width: 1200px;
+    height: 700px;
+    background-color: rgba(255,197,0,0.50);
+    position: absolute;
+    top: 11.25%;
+}
+
+/* honey colors */
+.spring {
+	display: grid;
+    grid-template-columns: 30% auto;
+    grid-gap: 70px;
+	margin: auto;
+	padding-top: 88px;
+	
+}
+
+.spring h1, .summer h1{
+    font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    color: rgba(255,247,196,1.00);
+	padding-left: 30px;
+}
+
+.spring h2, .summer h2{
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: rgba(129,44,0,1.00);
+    text-align: left;
+    padding-left: 11px;
+    margin-left: 20px;
+}
+
+.spring p, .summer p{
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    color: rgba(255,197,0,1.00);
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.spring .light img, .summer .mid img, .spring .dark img{
+    width: 80%;
+    height: auto;
+    background-color: rgba(255,247,196,1.00);
+    border-radius: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.light{
+    background-color: rgba(255,197,0,1.00);
+    padding-top: 30px;
+    border-radius: 40px;
+	padding-bottom: 70px;
+}
+
+.spring li, .summer li {
+	list-style-type: none;
+	float: left;
+	margin: 15px;
+	padding-left: 15px;
+}
+
+.info {
+    background-color: rgba(0,129,129,1.00);
+    padding-left: 30px;
+    border-radius: 40px;	
+	padding-bottom: 40px;
+}
+
+
+.summer {
+	display: grid;
+    grid-template-columns: auto 30%;
+    grid-gap: 70px;
+	margin: auto;
+	padding-top: 88px;
+}
+
+.mid {
+    background-color: rgba(219,133,0,1.00);
+    padding-top: 30px;
+    border-radius: 40px;
+    padding-bottom: 70px;
+}
+
+.dark {
+    background-color: rgba(129,44,0,1.00);
+    padding-top: 30px;
+    border-radius: 40px;
+    padding-bottom: 70px;
+}
+
+.dark h2{
+    font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: rgba(255,197,0,1.00);
+    text-align: left;
+    padding-left: 11px;
+    margin-left: 20px;
+}
+/* honey colors - end */
+
+
+/* winter */
+.winter {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-gap: 70px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgba(0,129,129,1.00);
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+    border-radius: 40px;	
+}
+
+.winter h1 {
+	font-family: "bodega-serif", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    color: rgba(255,247,196,1.00);
+	padding-left: 30px;
+}
+
+.winter p {
+	font-family: "semplicitapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    color: rgba(255,197,0,1.00);
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.winter img {
+	width: 130%;
+	height:auto;
+}
+
+.jar {
+    position: absolute;
+    top: 18%;
+    left: 70%;
+}
+/* winter - end */
