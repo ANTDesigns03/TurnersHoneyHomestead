@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initialscale=1.0">
 <title>Turner's Honey Homestead</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://use.typekit.net/vrn8zap.css">
@@ -32,9 +33,32 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+	
+	<script>
+	/* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}</script>
 </head>
 <body onLoad="MM_preloadImages('images/mission_on.png','images/bee_line_on.png')">
 
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Gallery</a>
+  <a href="about.html">About Us</a>
+  <a href="bee_facts.html">Bee Facts</a>
+  <a href="honey.html">The Honey</a>
+	<a href="index.html">Home</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span class="hamburger" onclick="openNav()"><img src="images/logo_horizontal.png" width="320" height="130" alt=""/></span>
+	
 <div class="menu">
   <li><a href="#">Gallery</a></li>
 	  <li><a href="about.html">About Us</a></li>
@@ -74,8 +98,9 @@ function MM_swapImage() { //v3.0
 	<div class="info">
 	  <h1>Summer</h1>
 	  <p>In the summer the nector collected from bees is typically darker in color resulting in a golden honey color. The taste is also described as more complex and richer. Below are some flowers that you can plant to get this pale and mellow flavor.</p>
-		<div>
-			<li><a href="images/sunflower_summer_big.jpg" data-lightbox="roadtrip" data-title="Sunflower"><img src="images/sunflower_summer.jpg" width="100" height="100" alt=""/></a></li>
+	  
+<div>
+		<li><a href="images/sunflower_summer_big.jpg" data-lightbox="roadtrip" data-title="Sunflower"><img src="images/sunflower_summer.jpg" width="100" height="100" alt=""/></a></li>
 			<li><a href="images/goldenrod_summer_big.jpg" data-lightbox="roadtrip" data-title="Goldenrod"><img src="images/goldenrod_summer.jpg" width="100" height="100" alt=""/></a></li>
   	  </div>
 	</div>

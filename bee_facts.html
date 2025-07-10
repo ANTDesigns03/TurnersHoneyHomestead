@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initialscale=1.0">
 <title>Turner's Honey Homestead</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://use.typekit.net/vrn8zap.css">
@@ -29,10 +30,33 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+	
+<script>
+	/* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}</script>
 </head>
 
 <body class="flower" onLoad="MM_preloadImages('images/mission_on.png','images/bee_line_on.png')">
 
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Gallery</a>
+  <a href="about.html">About Us</a>
+  <a href="bee_facts.html">Bee Facts</a>
+  <a href="honey.html">The Honey</a>
+	<a href="index.html">Home</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span class="hamburger" onclick="openNav()"><img src="images/logo_horizontal.png" width="320" height="130" alt=""/></span>
+	
 <div class="menu">
   <li><a href="#">Gallery</a></li>
 	  <li><a href="about.html">About Us</a></li>
@@ -49,21 +73,24 @@ function MM_swapImage() { //v3.0
 	<div class="dive_in">Let's Dive Into the Hive</div>
 </div>	
 
-	
+<div class="hive_back">	
 <div class="types">
-	<div><h1>Types of Hives</h1></div>
+	<div><h1>Types of Hives&nbsp;</h1>
+	</div>
 	<div class="hives">
 		<div>
 			<img src="images/langstroth.png" width="200" height="175" alt=""/>
+			<p>Langstroth</p>
 		</div>
-		<div><img src="images/warre.png" width="200" height="175" alt=""/></div>
-		<div><img src="images/top-bar.png" width="200" height="175" alt=""/></div>
-		<p>Langstroth</p>
-		<p>Warre</p>
-		<p>Top-Bar</p>
+		<div><img src="images/warre.png" width="200" height="175" alt=""/>
+			<p>Warre</p>
+		</div>
+		<div><img src="images/top-bar.png" width="200" height="175" alt=""/>
+			<p>Top-Bar</p>
+		</div>
 	</div>
 </div>
-	
+</div>
 <div class="cycle">
 	<h1>Life of a Honey Bee</h1>
 	<div class="stages">
